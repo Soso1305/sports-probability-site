@@ -74,73 +74,22 @@ svg .line{fill:none;stroke:var(--accent-1);stroke-width:2;stroke-linejoin:round}
 footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:12.5px}
 </style></head>
 <body>
-<div class="top"><div class="top-in"><div class="brand">Sports Probability<small>Updated Sun Oct 4, 8:43 PM EDT</small></div>
+<div class="top"><div class="top-in"><div class="brand">Sports Probability<small>Updated Sun Oct 4, 9:28 PM EDT</small></div>
 <nav><a href="#board">Upcoming</a><a href="#model">Model vs market</a><a href="#clv">Closing line</a><a href="#gaps">Price gaps</a>
 <a href="#results">Results</a><a href="#analyst">Analyst picks</a><a href="#betting">Betting</a><a href="#leagues">Leagues</a></nav>
 <button class="theme" id="theme" aria-label="Toggle dark mode">Theme</button></div></div>
 <main>
 <section class="banner wait" id="top">
-  <div class="banner-text"><h2>No edge shown yet</h2><p>The model has to beat the closing line over 300 picks before any edge claim. 32 measured so far. Until then every pick is labelled <b>insufficient evidence</b> — treat them as the market's view, not betting advice.</p></div>
-  <div class="progress" data-tip="32 of 300 true-close picks measured">
-    <div class="progress-bar"><span style="width:10.7%"></span></div>
-    <div class="progress-label"><b>32</b> / 300 closing-line picks</div>
+  <div class="banner-text"><h2>No edge shown yet</h2><p>The model has to beat the closing line over 300 picks before any edge claim. 35 measured so far. Until then every pick is labelled <b>insufficient evidence</b> — treat them as the market's view, not betting advice.</p></div>
+  <div class="progress" data-tip="35 of 300 true-close picks measured">
+    <div class="progress-bar"><span style="width:11.7%"></span></div>
+    <div class="progress-label"><b>35</b> / 300 closing-line picks</div>
   </div>
 </section>
-<div class="kpis"><div class="kpi t-early"><div class="kpi-label">Picks graded</div><div class="kpi-value">228</div><div class="kpi-sub">77 games · current model</div></div><div class="kpi t-early"><div class="kpi-label">Won vs market expected</div><div class="kpi-value">137 vs 129.6</div><div class="kpi-sub">z = +0.99 · inside normal luck</div></div><div class="kpi t-early"><div class="kpi-label">Log loss, model − market</div><div class="kpi-value">-0.0003</div><div class="kpi-sub">95% CI -0.0009 to +0.0002 · too small to matter</div></div><div class="kpi t-solid"><div class="kpi-label">Model vs market gap</div><div class="kpi-value">0.09 pts</div><div class="kpi-sub">3 of 230 picks against the market favourite</div></div><div class="kpi t-early"><div class="kpi-label">Closing-line value</div><div class="kpi-value">+0.30 pts</div><div class="kpi-sub">32 measured · CI -0.33 pts to +0.92 pts</div></div></div>
-<section id="board"><div class="sec-head"><h2>Upcoming</h2><p>36 picks in the next 4 days. Model and market differ by 0.12 pts on average across these 36 picks (largest 0.6 pts).</p></div>
+<div class="kpis"><div class="kpi t-early"><div class="kpi-label">Picks graded</div><div class="kpi-value">228</div><div class="kpi-sub">77 games · current model</div></div><div class="kpi t-early"><div class="kpi-label">Won vs market expected</div><div class="kpi-value">137 vs 129.6</div><div class="kpi-sub">z = +0.99 · inside normal luck</div></div><div class="kpi t-early"><div class="kpi-label">Log loss, model − market</div><div class="kpi-value">-0.0003</div><div class="kpi-sub">95% CI -0.0009 to +0.0002 · too small to matter</div></div><div class="kpi t-solid"><div class="kpi-label">Model vs market gap</div><div class="kpi-value">0.09 pts</div><div class="kpi-sub">3 of 230 picks against the market favourite</div></div><div class="kpi t-early"><div class="kpi-label">Closing-line value</div><div class="kpi-value">+0.27 pts</div><div class="kpi-sub">35 measured · CI -0.41 pts to +0.95 pts</div></div></div>
+<section id="board"><div class="sec-head"><h2>Upcoming</h2><p>33 picks in the next 4 days. Model and market differ by 0.12 pts on average across these 33 picks (largest 0.6 pts).</p></div>
   <div class="filters"><div class="chips"><button class="chip on" data-filter-sport="all">All</button><button class="chip" data-filter-sport="MLB">MLB</button><button class="chip" data-filter-sport="NFL">NFL</button><button class="chip" data-filter-sport="NHL">NHL</button></div><div class="chips"><button class="chip on" data-filter-market="all">All markets</button><button class="chip" data-filter-market="h2h">Moneyline</button><button class="chip" data-filter-market="spreads">Spread</button><button class="chip" data-filter-market="totals">Total</button></div></div>
-  <h3 class="day">Sunday, October 4</h3><div class="grid"><article class="card" data-sport="NHL" data-market="h2h" style="--accent:var(--s-nhl)">
-  <header><span class="league">NHL</span><span class="mkt">Moneyline</span>
-    <time>9:10 PM</time></header>
-  <h3>Vegas Golden Knights @ Vancouver Canucks</h3>
-  <div class="pick">Vegas Golden Knights to win</div>
-  <dl class="probs">
-    <div><dt>Model</dt><dd>66.7%</dd></div>
-    <div><dt>Market (fair)</dt><dd>66.8%</dd></div>
-    <div><dt>Difference</dt><dd>-0.09 pts</dd></div>
-    <div><dt>Best price</dt><dd>1.36 <small>Pinnacle</small></dd></div>
-  </dl>
-  <div class="flags"><span class="flag ins" data-tip="Model hasn't proven an edge on closing lines yet">Insufficient evidence</span><span class="flag" data-tip="Model is within 1 pt of the market — no independent opinion">Market copy</span><span class="flag" data-tip="A team has fewer than 5 rated games this season">Few games rated</span><span class="flag" data-tip="Another pick on this game exists — count it once">Same game</span></div>
-  <details><summary>Prices &amp; line movement</summary>
-    <div class="detail-grid"><div><h4>Every book, this line</h4><ul class="books"><li><span>Pinnacle</span><span class="num">1.36</span></li><li><span>Betano</span><span class="num">1.36</span></li><li><span>FanDuel</span><span class="num">1.34</span></li><li><span>DraftKings</span><span class="num">1.34</span></li></ul></div>
-    <div><h4>DraftKings price over time</h4><svg viewBox="0 0 240 48" class="spark"><polyline points="4.0,6.0 4.4,6.0 187.7,34.0 236.0,42.0" class="line"/></svg><div class="spark-axis"><span>1.43 first seen</span><span>1.34 now</span></div></div></div>
-    <p class="venue">Rogers Arena, Vancouver, BC</p>
-  </details>
-</article><article class="card" data-sport="NHL" data-market="spreads" style="--accent:var(--s-nhl)">
-  <header><span class="league">NHL</span><span class="mkt">Spread</span>
-    <time>9:10 PM</time></header>
-  <h3>Vegas Golden Knights @ Vancouver Canucks</h3>
-  <div class="pick">Vancouver Canucks +1.5</div>
-  <dl class="probs">
-    <div><dt>Model</dt><dd>54.3%</dd></div>
-    <div><dt>Market (fair)</dt><dd>54.0%</dd></div>
-    <div><dt>Difference</dt><dd>+0.26 pts</dd></div>
-    <div><dt>Best price</dt><dd>1.93 <small>Pinnacle</small></dd></div>
-  </dl>
-  <div class="flags"><span class="flag ins" data-tip="Model hasn't proven an edge on closing lines yet">Insufficient evidence</span><span class="flag" data-tip="Model is within 1 pt of the market — no independent opinion">Market copy</span><span class="flag" data-tip="Another pick on this game exists — count it once">Same game</span></div>
-  <details><summary>Prices &amp; line movement</summary>
-    <div class="detail-grid"><div><h4>Every book, this line</h4><ul class="books"><li><span>Pinnacle</span><span class="num">1.93</span></li><li><span>FanDuel</span><span class="num">1.93</span></li><li><span>Betano</span><span class="num">1.93</span></li><li><span>DraftKings</span><span class="num">1.91</span></li></ul></div>
-    <div><h4>DraftKings price over time</h4><svg viewBox="0 0 240 48" class="spark"><polyline points="4.0,42.0 4.4,42.0 187.7,19.1 236.0,6.0" class="line"/></svg><div class="spark-axis"><span>1.80 first seen</span><span>1.91 now</span></div></div></div>
-    <p class="venue">Rogers Arena, Vancouver, BC</p>
-  </details>
-</article><article class="card" data-sport="NHL" data-market="totals" style="--accent:var(--s-nhl)">
-  <header><span class="league">NHL</span><span class="mkt">Total</span>
-    <time>9:10 PM</time></header>
-  <h3>Vegas Golden Knights @ Vancouver Canucks</h3>
-  <div class="pick">Under 6.5</div>
-  <dl class="probs">
-    <div><dt>Model</dt><dd>53.6%</dd></div>
-    <div><dt>Market (fair)</dt><dd>53.6%</dd></div>
-    <div><dt>Difference</dt><dd>+0.01 pts</dd></div>
-    <div><dt>Best price</dt><dd>1.86 <small>Pinnacle</small></dd></div>
-  </dl>
-  <div class="flags"><span class="flag ins" data-tip="Model hasn't proven an edge on closing lines yet">Insufficient evidence</span><span class="flag" data-tip="Model is within 1 pt of the market — no independent opinion">Market copy</span><span class="flag" data-tip="Another pick on this game exists — count it once">Same game</span></div>
-  <details><summary>Prices &amp; line movement</summary>
-    <div class="detail-grid"><div><h4>Every book, this line</h4><ul class="books"><li><span>Pinnacle</span><span class="num">1.86</span></li><li><span>FanDuel</span><span class="num">1.83</span></li><li><span>PointsBet</span><span class="num">1.83</span></li><li><span>DraftKings</span><span class="num">1.80</span></li><li><span>Betano</span><span class="num">1.65</span></li></ul></div>
-    <div><h4>PointsBet price over time</h4><svg viewBox="0 0 240 48" class="spark"><polyline points="4.0,24.0 4.4,24.0 187.7,42.0 236.0,6.0" class="line"/></svg><div class="spark-axis"><span>1.80 first seen</span><span>1.83 now</span></div></div></div>
-    <p class="venue">Rogers Arena, Vancouver, BC</p>
-  </details>
-</article></div><h3 class="day">Monday, October 5</h3><div class="grid"><article class="card" data-sport="MLB" data-market="h2h" style="--accent:var(--s-mlb)">
+  <h3 class="day">Monday, October 5</h3><div class="grid"><article class="card" data-sport="MLB" data-market="h2h" style="--accent:var(--s-mlb)">
   <header><span class="league">MLB</span><span class="mkt">Moneyline</span>
     <time>5:10 PM</time></header>
   <h3>Chicago White Sox @ Cleveland Guardians</h3>
@@ -744,10 +693,10 @@ footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   </div></section>
 <section id="clv"><div class="sec-head"><h2>Closing line</h2>
   <p>The fastest honest test. Positive CLV = the sharp market moved toward our pick between the time we made it and kickoff. 252 started picks had no odds snapshot within 30 minutes of kickoff (laptop off or asleep, or played before the closing-line job existed) and are not counted.</p></div>
-  <div class="table-wrap"><table><thead><tr><th>Market</th><th>Measured</th><th>Avg CLV</th><th>Moved toward / against</th></tr></thead><tbody><tr class="t-low"><th>Moneyline</th><td class="num">11</td><td class="num">+1.07 pts</td><td class="num">5 / 3</td></tr><tr class="t-low"><th>Spread</th><td class="num">10</td><td class="num">+0.07 pts</td><td class="num">4 / 4</td></tr><tr class="t-low"><th>Total</th><td class="num">11</td><td class="num">-0.28 pts</td><td class="num">3 / 5</td></tr></tbody></table></div></section>
+  <div class="table-wrap"><table><thead><tr><th>Market</th><th>Measured</th><th>Avg CLV</th><th>Moved toward / against</th></tr></thead><tbody><tr class="t-low"><th>Moneyline</th><td class="num">12</td><td class="num">+1.38 pts</td><td class="num">6 / 3</td></tr><tr class="t-low"><th>Spread</th><td class="num">11</td><td class="num">-0.32 pts</td><td class="num">4 / 5</td></tr><tr class="t-low"><th>Total</th><td class="num">12</td><td class="num">-0.30 pts</td><td class="num">3 / 6</td></tr></tbody></table></div></section>
 <section id="gaps"><div class="sec-head"><h2>Price gaps</h2>
-  <p>A book paying more than the sharp fair price by 2%+. Logged to test whether these gaps are a real, repeatable edge — <b>not</b> a bet signal yet. 11 logged so far.</p></div>
-  <div class="table-wrap"><table><thead><tr><th>League</th><th>Game</th><th>Bet</th><th>Book</th><th>Price</th><th>Fair prob</th><th>Value vs fair</th><th>Start</th></tr></thead><tbody><tr><td>NHL</td><td>Vegas Golden Knights @ Vancouver Canucks</td><td>Over 6.5</td><td>Betano</td><td class="num">2.25</td><td class="num">47.7%</td><td class="num">+7.3%</td><td>Sun Oct 4, 9:10 PM EDT</td></tr></tbody></table></div></section>
+  <p>A book paying more than the sharp fair price by 2%+. Logged to test whether these gaps are a real, repeatable edge — <b>not</b> a bet signal yet. 12 logged so far.</p></div>
+  <p class="empty">No book is currently beating the sharp fair price by 2% or more on upcoming games.</p></section>
 <section id="results"><div class="sec-head"><h2>Results</h2>
   <p>Every graded pick from the current model versions, newest first. Older versions re-graded the same games and are not shown or counted.</p></div>
   <div class="table-wrap tall"><table class="results"><thead><tr><th>Date</th><th>League</th><th>Game</th><th>Pick</th><th>Model</th>
@@ -756,7 +705,7 @@ footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <p>Picks written by a person (or Claude as an analyst) before kickoff, from <code>analyst/picks.csv</code>. Graded on their own — never mixed into the model's record.</p></div>
   <div class="table-wrap"><table><thead><tr><th>Pick</th><th>Game</th><th>Bet</th><th>Bet only at</th><th>Units</th><th>Taken</th><th>Result</th><th>vs close</th></tr></thead><tbody><tr><td>2026-NFL-W4-A5</td><td>Detroit Lions @ Carolina Panthers</td><td>Under 51.5</td><td class="num">1.96</td><td class="num">0.5</td><td>Not bet</td><td class="res ">Pending</td><td>-4.4 pts</td></tr><tr><td>2026-NFL-W4-A4b</td><td>Arizona Cardinals @ New York Giants</td><td>Teaser leg: New York Giants +8.5</td><td class="num">1.83</td><td class="num">0.5</td><td>Not bet</td><td class="res won">Won</td><td>—</td></tr><tr><td>2026-NFL-W4-A4a</td><td>Los Angeles Chargers @ Seattle Seahawks</td><td>Teaser leg: Seattle Seahawks -1.5</td><td class="num">1.83</td><td class="num">0.5</td><td>Not bet</td><td class="res ">Pending</td><td>+6 pts of line vs close</td></tr><tr><td>2026-NFL-W4-A3</td><td>Arizona Cardinals @ New York Giants</td><td>Arizona Cardinals -2</td><td class="num">1.91</td><td class="num">1</td><td>Not bet</td><td class="res lost">Lost</td><td>—</td></tr><tr><td>2026-NFL-W4-A2</td><td>Miami Dolphins @ Minnesota Vikings</td><td>Miami Dolphins +10.5</td><td class="num">1.91</td><td class="num">0.5</td><td>Not bet</td><td class="res ">Pending</td><td>+0.5 pts of line vs close</td></tr><tr><td>2026-NFL-W4-A1</td><td>New England Patriots @ Buffalo Bills</td><td>New England Patriots +7.5</td><td class="num">1.87</td><td class="num">1</td><td>Not bet</td><td class="res won">Won</td><td>—</td></tr></tbody></table></div></section>
 <section id="betting"><div class="sec-head"><h2>Betting</h2><p>Real money only — from the bankroll ledger.</p></div><p class="empty">No real bets recorded. That is the right call until the closing-line test is passed. Record real bets with <code>src/bankroll/ledger.py</code> so this section tracks actual money, not theory.</p></section>
-<section id="leagues"><div class="sec-head"><h2>Leagues &amp; system</h2><p>343 Odds API credits left.</p></div>
+<section id="leagues"><div class="sec-head"><h2>Leagues &amp; system</h2><p>340 Odds API credits left.</p></div>
   <div class="table-wrap"><table><tbody><tr><th>NFL</th><td><span class="pill ok">Live</span></td><td>2 games with odds</td></tr><tr><th>NBA</th><td><span class="pill muted">On break</span></td><td>Next game Tue Oct 20, 3:00 PM EDT</td></tr><tr><th>NHL</th><td><span class="pill ok">Live</span></td><td>12 games with odds</td></tr><tr><th>MLB</th><td><span class="pill ok">Live</span></td><td>3 games with odds</td></tr><tr><th>EPL</th><td><span class="pill muted">On break</span></td><td>Next game Sat Oct 10, 7:30 AM EDT</td></tr><tr><th>La Liga</th><td><span class="pill muted">On break</span></td><td>Next game Fri Oct 9, 3:00 PM EDT</td></tr><tr><th>Serie A</th><td><span class="pill muted">On break</span></td><td>Next game Sat Oct 10, 9:00 AM EDT</td></tr><tr><th>Bundesliga</th><td><span class="pill muted">On break</span></td><td>Next game Fri Oct 9, 2:30 PM EDT</td></tr><tr><th>Ligue 1</th><td><span class="pill muted">On break</span></td><td>Next game Fri Oct 9, 2:45 PM EDT</td></tr><tr><th>Eredivisie</th><td><span class="pill muted">On break</span></td><td>Next game Fri Oct 9, 2:00 PM EDT</td></tr><tr><th>Champions League</th><td><span class="pill muted">On break</span></td><td>Next game Tue Oct 13, 12:45 PM EDT</td></tr><tr><th>Europa League</th><td><span class="pill muted">On break</span></td><td>Next game Thu Oct 15, 12:45 PM EDT</td></tr></tbody></table></div><div class="health"><span class="pill ok">Pipeline healthy</span></div><div class="health"><span class="pill bad">Data checks: 8 game(s) flagged</span><ul class="problems"><li>NHL Philadelphia Flyers @ Tampa Bay Lightning: no Pinnacle line</li><li>NHL Ottawa Senators @ Boston Bruins: no Pinnacle line</li><li>NHL Winnipeg Jets @ Pittsburgh Penguins: no Pinnacle line</li><li>NHL San Jose Sharks @ Dallas Stars: no Pinnacle line</li><li>NHL Carolina Hurricanes @ Montréal Canadiens: no Pinnacle line</li><li>NHL St Louis Blues @ Chicago Blackhawks: no Pinnacle line</li><li>NHL Florida Panthers @ Los Angeles Kings: no Pinnacle line</li><li>NHL Pittsburgh Penguins @ Washington Capitals: no Pinnacle line</li></ul><p class="note">"First seen" lines are the first price our system recorded, not the market's true opening line.</p></div></section>
 </main>
 <footer>Probabilities are estimates, not advice. Odds from The Odds API; fair prices are Pinnacle with the margin removed. All times Eastern.</footer>
