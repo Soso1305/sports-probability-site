@@ -78,13 +78,13 @@ svg .line{fill:none;stroke:var(--accent-1);stroke-width:2;stroke-linejoin:round}
 footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:12.5px}
 </style></head>
 <body>
-<div class="top"><div class="top-in"><div class="brand">Sports Probability<small>Updated Mon Oct 26, 6:22 PM EDT · odds from Sun Oct 25, 1:29 PM EDT</small></div>
+<div class="top"><div class="top-in"><div class="brand">Sports Probability<small>Updated Tue Oct 27, 1:29 PM EDT · odds from Sun Oct 25, 8:19 PM EDT</small></div>
 <nav><a href="#board">Upcoming</a><a href="#model">Model vs market</a><a href="#clv">Closing line</a><a href="#gaps">Price gaps</a>
 <a href="#results">Results</a><a href="#analyst">Analyst picks</a><a href="#betting">Betting</a><a href="#leagues">Leagues</a></nav>
 <button class="theme" id="theme" aria-label="Toggle dark mode">Theme</button></div></div>
 <main>
 <section class="banner bad feed" id="feed">
-  <div class="banner-text"><h2>Data feed down — odds last updated Sun Oct 25, 1:29 PM EDT</h2>
+  <div class="banner-text"><h2>Data feed down — odds last updated Sun Oct 25, 8:19 PM EDT</h2>
   <p>The last odds fetch failed — see Leagues &amp; system at the bottom of the page. Until then the Upcoming board is empty or out of date. 11 finished game(s) are waiting for a final score, so recent results are missing below.</p></div>
 </section>
 <section class="banner bad" id="top">
@@ -208,7 +208,14 @@ footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   File &quot;C:\Users\adenc\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\requests\adapters.py&quot;, line 729, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.oddspapi.io', port=443): Max retries exceeded with url: /v4/account?apiKey=*** (Caused by NameResolutionError(&quot;HTTPSConnection(host='api.oddspapi.io', port=443): Failed to resolve 'api.oddspapi.io' ([Errno 11001] getaddrinfo failed)&quot;))
-</li></ul></div><div class="health"><span class="pill bad">Data checks: 0 game(s) flagged</span><ul class="problems"><li>Result overdue: MLB Tampa Bay Rays @ Milwaukee Brewers</li><li>Result overdue: La Liga Barcelona @ Real Racing Club de Santander</li><li>Result overdue: Ligue 1 Lyon @ Paris Saint Germain</li></ul><p class="note">"First seen" lines are the first price our system recorded, not the market's true opening line.</p></div></section>
+</li><li>'fetch_results' last run FAILED: failed for 2026-10-20: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261020&amp;limit=300 (Caused by NameResolutionError(&quot;H
+[Champions League] 0 result(s) settled from ESPN, 2 not matched (check team names)
+[Europa League] ESPN fetch failed for 2026-10-15: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015&amp;limit=300 (Caused by NameResolutionError(&quot;HTTP
+[Europa League] 0 result(s) settled from ESPN, 1 not matched (check team names)
+[Ligue 1] ESPN fetch failed for 2026-10-25: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261025&amp;limit=300 (Caused by NameResolutionError(&quot;HTTPSConne
+[Ligue 1] 0 result(s) settled from ESPN, 1 not matched (check team names)
+0 result(s) settled from the backup source
+</li></ul></div><div class="health"><span class="pill bad">Data checks: 0 game(s) flagged</span><ul class="problems"><li>Result overdue: Ligue 1 Lyon @ Paris Saint Germain</li></ul><p class="note">"First seen" lines are the first price our system recorded, not the market's true opening line.</p></div></section>
 </main>
 <footer>Probabilities are estimates, not advice. Odds from OddsPapi (The Odds API before Oct 13, 2026); results from ESPN; fair prices are Pinnacle with the margin removed. All times Eastern.</footer>
 <div id="tip" role="tooltip"></div>
